@@ -1,0 +1,22 @@
+#cb{
+    height: 800px;
+    width: 800px;
+    border: 2px black solid ;
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+.mn{
+    display: flex;
+    justify-content: center;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
